@@ -3,6 +3,11 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
+}
+
+.intro {
+  background: #fff;
 }
 
 .contact-mail {
@@ -15,11 +20,69 @@
   flex-direction: column;
   justify-content: center;
   padding: 1rem;
+  text-align: center;
 }
 
 .about-logo {
-    margin-top: 2rem;
+  margin-top: 2rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
 }
+
+.history p {
+  font-weight: 200;
+  margin-bottom: 2rem;
+}
+
+hr {
+  margin: 1rem 0;
+}
+
+.normal-hr {
+  width: 100vw;
+  border: none;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.old-concert-1 {
+  background: url(./img/concert-29.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 300px;
+  width: -webkit-fill-available;
+  max-width: 90%;
+  margin-bottom: 1rem;
+}
+
+.old-concert-2 {
+  background: url(./img/concert-28.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 300px;
+  width: -webkit-fill-available;
+  max-width: 90%;
+  margin-bottom: 1rem;
+}
+
+.mask {
+  height: 100%;
+  background: #db41277a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mask h2 {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.mask p {
+  color: #fff;
+} 
 
 @media (min-width: 768px) {
 }

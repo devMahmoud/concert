@@ -1,11 +1,4 @@
-const toggleBtn = document.querySelector('.toggle-btn');
-const navLinks = document.querySelector('.nav-links');
-
 const artistGrid = document.querySelector('.artist-cards-container');
-
-toggleBtn.addEventListener ('click', () => {
-    navLinks.classList.toggle('hidden')
-})
 
 const artists = [
     {
@@ -45,9 +38,6 @@ const artists = [
         photo: 'img/artist_06.png',
     },
 ];
-
-
-
 
 const creatArtistCard = (title, jobTitle, info, img) => {
     const artistCard = document.createElement('div');

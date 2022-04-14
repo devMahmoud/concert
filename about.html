@@ -14,38 +14,42 @@
 <body>
     <div class="lang-bar">
         <a>AR</a>
-        <a>tweeter</a>
-        <a>facebook</a>
+        <a><i class="fa-brands fa-twitter"></i></a>
+        <a><i class="fa-brands fa-facebook-f"></i></a>
     </div>
     <header>
         <nav class="navbar">
-            <a class="logo" href="./index.html"><img src="img/desktop/logo.png"></a>
-            <a class="toggle-btn"><i class="fa-solid fa-align-justify"></i></a>
-            <div class="nav-links hidden">
-                <ul>
-                    <li class="nav-item"><a href="./about.html">About</a></li>
-                    <li class="nav-item"><a href="#">Program</a></li>
-                    <li class="nav-item"><a href="#">Join</a></li>
-                    <li class="nav-item"><a href="#">Sponsor</a></li>
-                    <li class="nav-item"><a href="#">News</a></li>
-                    <li class="nav-item"><a href="#">CC Campaign</a></li>
-                </ul>
+            <a class="logo" href="./index.html"><img src="img/desktop/logo.jpg"></a>
+            <div class="mobile-menu">
+                <a class="toggle-btn"><i id="toggle-icon" class="fa-solid fa-align-justify"></i></a>
+            
+                <div class="nav-links hidden">
+                    <ul>
+                        <li class="nav-item"><a href="./index.html">Home</a></li>
+                        <li class="nav-item"><a href="#">Program</a></li>
+                        <li class="nav-item"><a href="#">Join</a></li>
+                        <li class="nav-item"><a href="#">Sponsor</a></li>
+                        <li class="nav-item"><a href="#">News</a></li>
+                        <li class="nav-item"><a href="#">CC Campaign</a></li>
+                    </ul>
+                </div>
             </div>
+            
         </nav>
         <div class="header-content-wrapper">
             <div class="title-container">
                 <h4>"Hello! Sharing world"</h4>
-                <h1 class="title">Creative commons Global summit 2015</h1>
+                <h1 class="title">Arab Music<br>Festival 2021</h1>
             </div>
             <div class="intro">
-                <p>The Global Summit brings together the community of experts, academics, and activists who comprise the Creative Commons
-                     affiliate network in a different country every two.
+                <p>The Arab Music Festival brings together the top Arab musicians, singers, and activists who comprise the Original Arab
+                     Music from different Arab countries every year.
                       This year, we hope to expand our invitation list including organizations and individuals
                 </p>
             </div>
             <div class="contact">
                 <p>Please contact us per Email for any further questions<br>
-                about CC Global Summit
+                about Arab Music Festival
                 </p>
                 <a class="contact-mail">ccsummit2015@cckorea.org</a>
             </div>
@@ -53,37 +57,59 @@
         
     </header>
     <section class="history">
-        <h3 class="about-logo">Creative Commons<br>
-        Global Summit 2015 Logo</h3>
+        <h3 class="about-logo">Arab Music<br>
+            Festival 2021 Logo</h3>
         <hr>
-        <p>The logo of CC Global summit 2015 was decided
+        <p>The logo of Arab Music Festival 2015 was decided
              through the logo compition from 8 June to 7 July.
         </p>
-        <img src="img/desktop/logo.png">
-        <h3>See the past CC Global Summits</h3>
+        <img src="img/desktop/logo.jpg">
+        <hr class="normal-hr">
+        <h3>See the past Arab Music Festivals</h3>
         <hr>
-        <p>Take a look at the last two CC Global Summits
-             which took place in Buenos Aires and in Warsaw.
+        <p>Take a look at the last two Arab Music Festivals
+             which took place in Cairo and in Alexanderia.
         </p>
         <div class="old-concert-1">
             <div class="mask">
-                <h3>2013</h3>
-                <b>CC Global Summit 2013 in Buenos Aires</b>
+                <h2>2020</h2>
+                <p>Arab Music Festival 2020 in Alexanderia</p>
             </div>
         </div>
         <div class="old-concert-2">
             <div class="mask">
-                <h3>2011</h3>
-                <b>CC Global Summit 2011 in Warsaw</b>
+                <h2>2019</h2>
+                <p>Arab Music Festival 2019 in Cairo</p>
             </div>
         </div>
     </section>
+    
     <footer>
         <div class="parteners">
             <h3>Partener</h3>
             <hr>
+            <div class="parteners-logo">
+                <img class="partener-1" src="./img/partener-1.png">
+                <img class="partener-2" src="./img/partener-2.png">
+                <img class="partener-4" src="./img/partener-3.png">
+                <img class="partener-3" src="./img/partener-4.png">
+                
+            </div>
         </div>
-        <div class="rights"></div>
+        <div class="rights">
+            <div class="left-footer">
+                <img src="./img/cc.png" alt="">
+                <h3>creative<br>commons Korea</h3>
+            </div>
+            <div class="right-footer">
+                <p>
+                    2015 Creative Commons Korea.<br>
+                    Some Rights Reserved. 
+                </p>
+            </div>
+        </div>
     </footer>
+
+    <script src="menu.js"></script>
 </body>
 </html>
