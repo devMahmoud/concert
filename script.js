@@ -5,19 +5,19 @@ const artists = [
     name: 'Ali Elhagar',
     job: 'Singer',
     about: 'fugit perspiciatis molestias assumenda? Mollitia fuga modi consectetur dolorem cumque quia error reiciendis blanditiis amet, repellendus temporibus accusamus.',
-    photo: 'img/artists/ali.png',   
+    photo: 'img/artists/ali.png',
   },
   {
     name: 'Wael Jassar',
     job: 'Singer',
     about: 'fugit perspiciatis molestias assumenda? Mollitia fuga modi consectetur dolorem cumque quia error reiciendis blanditiis amet, repellendus temporibus accusamus.',
-    photo: 'img/artists/wael.png',   
+    photo: 'img/artists/wael.png',
   },
   {
     name: 'Samira Said',
     job: 'Singer',
     about: 'fugit perspiciatis molestias assumenda? Mollitia fuga modi consectetur dolorem cumque quia error reiciendis blanditiis amet, repellendus temporibus accusamus.',
-    photo: 'img/artists/samira.png',    
+    photo: 'img/artists/samira.png',
   },
   {
     name: 'Marwan Khoury',
@@ -26,10 +26,10 @@ const artists = [
     photo: 'img/artists/marwan.png',
   },
   {
-        name: 'Abadi Al Johar',
-        job: 'Singer',
-        about: 'fugit perspiciatis molestias assumenda? Mollitia fuga modi consectetur dolorem cumque quia error reiciendis blanditiis amet, repellendus temporibus accusamus.',
-        photo: 'img/artists/abadi.png',
+    name: 'Abadi Al Johar',
+    job: 'Singer',
+    about: 'fugit perspiciatis molestias assumenda? Mollitia fuga modi consectetur dolorem cumque quia error reiciendis blanditiis amet, repellendus temporibus accusamus.',
+    photo: 'img/artists/abadi.png',
   },
   {
     name: 'Asala',
