@@ -2,10 +2,10 @@ const artistGrid = document.querySelector('.artist-cards-container');
 
 const artists = [
     {
-        name:'Yochai Benkler',
-        job: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eum quia fugiat',
+        name:'Ali Elhagar',
+        job: 'Singer',
         about: 'fugit perspiciatis molestias assumenda? Mollitia fuga modi consectetur dolorem cumque quia error reiciendis blanditiis amet, repellendus temporibus accusamus.',
-        photo: 'img/artist_01.png',
+        photo: 'img/artists/ali.png',
     },
     {
         name:'Kilnam Chon',

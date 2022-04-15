@@ -38,6 +38,15 @@ display: none;
   color: #fff;
 }
 
+.nav-item a:hover {
+  color: #eb513c;
+}
+
+.nav-item a:active {
+  color: #eb513c;
+  border: 2px solid #ec5242;
+}
+
 .mobile-menu-open {
   background: #272a31;
 }
