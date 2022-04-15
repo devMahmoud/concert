@@ -4,10 +4,17 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  background: url(./img/about-bg-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 4rem 0;
 }
 
 .intro {
+  max-width: 80%;
   background: #fff;
+  margin: 3rem 0;
 }
 
 .contact-mail {
@@ -29,13 +36,24 @@
   font-weight: 500;
 }
 
-.history p {
+.logo-info {
   font-weight: 200;
   margin-bottom: 2rem;
+  max-width: 70%;
 }
 
 hr {
   margin: 1rem 0;
+}
+
+.logo-wrapper {
+  border: 1px solid rgb(226, 222, 222);
+  width: 90%;
+  padding: 2rem 0;
+}
+
+.logo-wrapper img {
+  max-width: 50%;
 }
 
 .normal-hr {
@@ -43,6 +61,13 @@ hr {
   border: none;
   border-style: inset;
   border-width: 1px;
+  border-top: thin;
+}
+
+.old-concerts {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
 }
 
 .old-concert-1 {
@@ -53,7 +78,6 @@ hr {
   height: 300px;
   width: -webkit-fill-available;
   max-width: 90%;
-  margin-bottom: 1rem;
 }
 
 .old-concert-2 {
@@ -64,7 +88,6 @@ hr {
   height: 300px;
   width: -webkit-fill-available;
   max-width: 90%;
-  margin-bottom: 1rem;
 }
 
 .mask {
@@ -85,4 +108,19 @@ hr {
 } 
 
 @media (min-width: 768px) {
+  .old-concerts {
+    flex-direction: row;
+    width: 75%;
+    justify-content: center;
+  }
+
+  .old-concert-1 {
+    width: 35%;
+    margin-right: 1rem;
+  }
+
+  .old-concert-2 {
+    width: 35%;
+  }
+
 }
