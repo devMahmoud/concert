@@ -38,13 +38,13 @@ display: none;
   color: #fff;
 }
 
-.nav-item a:hover {
-  color: #eb513c;
-}
-
-.nav-item a:active {
+.nav-item:hover {
   color: #eb513c;
   border: 2px solid #ec5242;
+}
+
+.nav-item:active {
+  color: #eb513c;
 }
 
 .mobile-menu-open {
@@ -263,7 +263,7 @@ hr {
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
-      padding: 0.5rem 6rem;
+      padding: 0.5rem 7rem;
   }
 
   .lang-bar a {
@@ -292,7 +292,7 @@ hr {
   }
 
   .nav-item {
-      margin-left: 1rem;
+      padding: 0;
   }
 
   .nav-item a {
@@ -306,6 +306,7 @@ hr {
 
   .cards-container {
     flex-direction: row;
+    margin: 0 7rem;
   }
 
   .card {
@@ -315,6 +316,10 @@ hr {
 
   .card-desc {
     text-align: center;
+  }
+
+  .artists {
+    margin: 1rem 7rem;
   }
 
   .artist-cards-container {
@@ -328,6 +333,10 @@ hr {
 
   .parteners h3 {
     margin: 1rem 0;
+  }
+
+  .rights {
+    margin: 1rem 7rem;
   }
 
 }
