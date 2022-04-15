@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.hidden {
+  display: none;
+}
+
+.lang-bar {
+  display: none;
+}
+
+.logo {
+  display: none;
+}
+
+.nav-links ul {
+  list-style: none;
+}
+
+.nav-item {
+  padding: 1rem;
+}
+
+.nav-item a {
+  padding: 1rem;
+  color: #fff;
+}
+
+.nav-item:hover {
+  color: #eb513c;
+  border: 2px solid #ec5242;
+}
+
+.nav-item:active {
+  color: #eb513c;
+}
+
+.mobile-menu-open {
+  background: #272a31;
+}
+
+.toggle-btn {
+  font-size: 25px;
+  margin: 0 2rem;
+}
+
+.toggle-btn i {
+  padding: 1rem 0;
+}
+
+.header-content {
+  background: url(./img/desktop/bg-blur.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 4rem 1rem;
+}
+
+.title-container {
+  color: #ec5242;
+  padding: 0 6rem;
+}
+
+.title {
+  font-family: 'COCOGOOSE', sans-serif;
+  text-transform: uppercase;
+}
+
+.intro {
+  background: #f5f4f4;
+  max-width: 95%;
+  margin: auto;
+}
+
+.intro p {
+  font-family: 'Lato', sans-serif;
+  color: #504e4e;
+  line-height: 2rem;
+  border: 2px solid #fff;
+  padding: 1rem;
+}
+
+.event {
+  margin: 1rem 0;
+  padding: 0 6rem;
+}
+
+.date {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: 700;
+  color: #3e3e3e;
+}
+
+.main {
+  background: #282b33;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.main-section-title {
+  color: #fff;
+}
+
+hr {
+  height: 1px;
+  width: 5%;
+  border: 1px solid #eb513c;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #50545c33;
+  margin: 0.5rem;
+}
+
+.card-title {
+  color: #eb513c;
+}
+
+.card-desc {
+  color: #fff;
+  max-width: 70%;
+}
+
+.join-btn {
+  background: #eb513c;
+  font-size: large;
+  font-weight: bold;
+  color: #fff;
+  padding: 2rem;
+}
+
+.artists {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.artist-cards-container {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.artist-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.artist-photo {
+  margin: 1rem;
+}
+
+.artist-name {
+  margin: 1rem;
+}
+
+.artist-job {
+  margin: 1rem;
+  color: #df0000;
+  font-style: italic;
+}
+
+.artist-about {
+  color: #535252;
+  margin: 4rem 1rem 0 1rem;
+}
+
+.parteners {
+  background: #414246;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #909090;
+  filter: grayscale(100%);
+}
+
+.parteners h3 {
+  margin-bottom: 0.5rem;
+}
+
+.parteners-logo {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  justify-content: space-evenly;
+}
+
+.partener-1 {
+  width: 35%;
+  margin-bottom: 2rem;
+}
+
+.partener-2 {
+  width: 35%;
+  margin-bottom: 2rem;
+}
+
+.partener-3 {
+  width: 35%;
+}
+
+.partener-4 {
+  width: 35%;
+}
+
+.rights {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+.left-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-footer img {
+  width: 3rem;
+  height: 3rem;
+}
+
+@media (min-width: 768px) {
+  .lang-bar {
+    display: flex;
+    flex-direction: row-reverse;
+    background: #3e3e3e;
+    padding: 0.5rem 6rem;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 7rem;
+  }
+
+  .lang-bar a {
+    margin: 0 1rem;
+    color: #fff;
+  }
+
+  .logo {
+    display: block;
+  }
+
+  .toggle-btn {
+    display: none;
+  }
+
+  .mobile-menu {
+    background: #fff;
+  }
+
+  .nav-links {
+    display: flex;
+  }
+
+  .nav-links ul {
+    display: flex;
+  }
+
+  .nav-item {
+    padding: 0;
+  }
+
+  .nav-item a {
+    color: #000;
+  }
+
+  .intro {
+    max-width: 50%;
+    margin-left: 6rem;
+  }
+
+  .cards-container {
+    flex-direction: row;
+    margin: 0 7rem;
+  }
+
+  .card {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .card-desc {
+    text-align: center;
+  }
+
+  .artists {
+    margin: 1rem 7rem;
+  }
+
+  .artist-cards-container {
+    grid-template-columns: auto auto;
+  }
+
+  .artist-about {
+    color: #535252;
+    margin: 2rem 1rem 0 1rem;
+  }
+
+  .parteners h3 {
+    margin: 1rem 0;
+  }
+
+  .rights {
+    margin: 1rem 7rem;
+  }
+}
