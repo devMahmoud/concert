@@ -1,8 +1,8 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
   
 body {
   width: 100%;
@@ -14,7 +14,7 @@ a {
 }
 
 .hidden {
-display: none;
+  display: none;
 }
 
 .lang-bar {
@@ -22,7 +22,7 @@ display: none;
 }
 
 .logo {
-    display: none;
+  display: none;
 }
 
 .nav-links ul {
@@ -94,7 +94,6 @@ display: none;
 
 .event {
   margin: 1rem 0;
-  padding-left: 1rem;
   padding: 0 6rem;
 }
 
@@ -199,7 +198,6 @@ hr {
   align-items: center;
   color: #909090;
   filter: grayscale(100%);
-  
 }
 
 .parteners h3 {
@@ -259,11 +257,11 @@ hr {
   }
 
   .navbar {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0.5rem 7rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 7rem;
   }
 
   .lang-bar a {
@@ -272,7 +270,7 @@ hr {
   }
 
   .logo {
-      display: block;
+    display: block;
   }
 
   .toggle-btn {
@@ -288,16 +286,16 @@ hr {
   }
 
   .nav-links ul {
-      display: flex;
+    display: flex;
   }
 
   .nav-item {
-      padding: 0;
+    padding: 0;
   }
 
   .nav-item a {
     color: #000;
-}
+  }
 
   .intro {
     max-width: 50%;
@@ -338,5 +336,4 @@ hr {
   .rights {
     margin: 1rem 7rem;
   }
-
 }

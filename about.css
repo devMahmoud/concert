@@ -78,7 +78,7 @@ hr {
   background-size: cover;
   background-position: center center;
   height: 300px;
-  width: -webkit-fill-available;
+  width: 100%;
   max-width: 90%;
   margin: 1rem 0;
 }
@@ -89,7 +89,7 @@ hr {
   background-size: cover;
   background-position: center center;
   height: 300px;
-  width: -webkit-fill-available;
+  width: 100%;
   max-width: 90%;
 }
 
@@ -108,7 +108,7 @@ hr {
 
 .mask p {
   color: #fff;
-} 
+}
 
 @media (min-width: 768px) {
   .old-concerts {
