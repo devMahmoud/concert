@@ -75,6 +75,7 @@ display: none;
 
 .title {
   font-family: 'COCOGOOSE', sans-serif;
+  text-transform: uppercase;
 }
 
 .intro {
@@ -159,6 +160,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 2rem 0;
 }
 
 .artist-cards-container {
