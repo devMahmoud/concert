@@ -5,15 +5,17 @@
 > Description the project.
 This is a simple design for Arab Music Festival
 
-> Live preview.
-https://devmahmoud.github.io/concert
-> Live demo.
-(https://drive.google.com/file/d/1QMp5GHija94uIBdSZaW0tr0f8-lWdP1c/view?usp=sharing)
+> [Live preview.](https://devmahmoud.github.io/concert)
+
+> [Live demo.](https://drive.google.com/file/d/1QMp5GHija94uIBdSZaW0tr0f8-lWdP1c/view?usp=sharing)
 
 ## Built With
 
-- Major languages
-HTML, CSS, JS
+- Major languages: 
+`HTML`
+`CSS`
+`JS`
+
 - Frameworks
 - Technologies used
 
